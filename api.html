@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Api SW</title>
+</head>
+
+<body>
+    <h1>Esta API irá pegar a escolha do usuário (personagens ou planetas do universo de Star Wars) e mostrar em quais filmes da franquia ela aparece.</h1>
+    <h3>Espere alguns momentos antes de escolher.</h3>
+    <div id="formulario">
+        <form>
+            <label for="lista">Escolha uma categoria:</label>
+            <select id="lista" name="lista">
+                <option value="chars">Personagens</option>
+                <option value="planets">Planetas</option>
+            </select>
+            <button id="escolhe" type="button">Escolher</button>
+        </form>
+    </div>
+    <div id="resultado">
+
+    </div>
+    <script id="envia" type="text/javascript" src="js.js">
+    </script>
+</body>
+
+</html>
